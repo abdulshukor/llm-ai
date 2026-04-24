@@ -1,0 +1,29 @@
+# ===== Models & ML artifacts =====
+models/
+*.gguf
+*.safetensors
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# ===== Docker =====
+*.log
+
+# ===== Devcontainer =====
+.devcontainer/*.local.json
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Misc =====
+*.tmp
+*.cache
